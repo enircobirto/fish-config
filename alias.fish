@@ -36,3 +36,10 @@ alias vfsh "cd ~/.config/fish && nvim"
 
 #Docker and podman
 alias docker-compose "podman-compose"
+
+#req
+alias reqdev "~/req.fish dev"
+alias reqprod "~/req.fish prod"
+
+#checklogs
+alias chk "~/checklogs.fish"
