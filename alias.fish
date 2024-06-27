@@ -20,9 +20,9 @@ alias chn "cd ~ & clear & neofetch"
 alias ghauth "gh auth login"
 
 #GIT (g)
-alias gc "git commit -m '.'"
-abbr ga git add
-abbr gp "git push -u origin"
+# alias gc "git commit -m '.'"
+# abbr ga git add
+# abbr gp "git push -u origin"
 
 #NEO
 abbr matrix1 "neo -a -b 2 -c red -d 99 -G 50 -g 100,150 -M1 --shortpct=100 -m '"
@@ -31,7 +31,7 @@ abbr matrix1 "neo -a -b 2 -c red -d 99 -G 50 -g 100,150 -M1 --shortpct=100 -m '"
 alias vfa "vf activate venv"
 alias vfv "nvm install v21.2.0 && vf activate venv && nvim"
 alias v "nvim ."
-alias vv "cd ~/.config/nvim && nvim"
+alias vv "cd ~/.config/nvim && nvim init.lua"
 alias vfsh "cd ~/.config/fish && nvim"
 
 #Docker and podman
